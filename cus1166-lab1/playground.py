@@ -67,4 +67,5 @@ class Book:
   def printBook(self):
     print(self.title +", "+ self.isbn)
   
-  
+  from mymodule.helper_utils import square
+  print(square(100))
